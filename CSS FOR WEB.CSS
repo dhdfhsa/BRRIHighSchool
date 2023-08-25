@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.hearder{
+    min-height: 100vh ;
+    min-width: 100vw;
+    background-image: linear-gradient(rgb(4,9,30,0,7),rgba(4,9,30,0,7)) ,url(images.1.1.jfif);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+}

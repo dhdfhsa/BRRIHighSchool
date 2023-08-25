@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>About Us</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           /* background-color: orangered; */
+           
+        }
+        h1 {
+            color: black;
+            text-align: center;
+            font-size: 50px;
+            margin: 10px;
+            padding: 5px;
+            border: 5px solid black;
+
+        }
+        h4{
+            color: rgb(59, 48, 48);
+            text-align: center;
+            font-size: 40px;
+            margin: 2px;
+            padding: 8px;
+            border: 2px solid black;
+            
+        }
+        .q{
+            font-size: 20px;
+            align-items: center;
+            
+            border: 2px solid rgb(29, 29, 56);
+            margin: 5px;
+            padding: 10px;
+            text-align:center;
+            display: inline-block;
+            position: relative;
+            flex: 1;
+
+            
+          
+        }
+        .pic{
+           
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            transition: 40px;
+           
+            
+        }
+
+        .hearder{
+    min-height: 100vh ;
+    width: 100%;
+    /* background-image: linear-
+    gradient(rgb(4,9,30,0,7),rgba(4,9,30,0,7)) ,url(images.1.1.jfif); */
+    /* background-image: url(images.1.1.jfif); */
+    background-position: center;
+    background-size: cover;
+    /* background-color: black; */
+    /* position: relative; */
+}
+footer{
+    text-align: center;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 150px ;
+}
+.sad{
+    flex: 1;
+    text-align: right;
+}
+.sad ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.sad ul li a {
+   color: black;
+   text-decoration: none;
+   font-size: 13px;
+  
+}
+.sad ul li::after{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition-duration: .5s;
+}
+.sad ul li:hover::after{
+    width: 100%;
+}
+.e{
+    text-align: center;
+    border: 1px solid blue;
+}
+
+/* Extra */
+
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Borel', cursive;
+}
+.hearder{
+    min-height: 100vh ;
+    width: 100%;
+    /* background-image: linear-
+    gradient(rgb(4,9,30,0,7),rgba(4,9,30,0,7)) ,url(images.1.1.jfif); */
+    background-image: url(images.1.1.jfif);
+    /* background-image: url(http://pathshalaems.com//StudentImages/uploadedimages/ImageGallery/2018_5_15_0_50_57_985_.jpg); */
+    background-position: center;
+    background-size: cover;
+    /* background-color: black; */
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 150px ;
+}
+.sad{
+    flex: 1;
+    text-align: right;
+}
+.sad ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.sad ul li a {
+   color: black;
+   text-decoration: none;
+   font-size: 13px;
+  
+}
+.sad ul li::after{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition-duration: .5s;
+}
+.sad ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    color: blue;
+    padding-top: 100px;
+}
+.a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 19px 39px;
+    font-size: 13px;
+    background: transparent;
+    /* position: absolute; */
+    cursor: pointer;
+}
+.a:hover{
+    border: 2px solid rebeccapurple;
+    background-color: blue;
+    transition-duration:.5sec ;
+}
+nav.fa{
+    display: none;
+}
+@media(max-width:800px) {
+    .text-box h1{
+        font-size: 20px;
+    } 
+    .sad ul li  {
+        display: block;
+    }
+    .sad{  
+        position: absolute;
+        background-color: blue;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+     nav.fa{
+        display: block;
+        color:blue;
+        margin: 10px;
+        font-size: 22px ;
+        cursor: pointer;
+        visibility: visible;
+     } 
+     .sad ul li{
+        /* display: block */
+        padding : 10px;
+
+     }
+     .text-box p {
+        color: blue;
+        
+        font-size: 14px;
+
+    
+    
+}
+
+}
+
+.text-box p {
+    color: blue;
+    
+
+}
+.About{
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+
+}
+h1{
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    line-height: 22x;
+    padding: 10px;
+}
+
+ @media(min-width:750px){
+    .fa {
+        visibility: hidden;
+      
+     } 
+     .fa {
+        visibility: hidden;
+
+     } 
+
+@media (max-width:550px) {
+    .text-box h1{
+        font-size: 20px;
+        display: inline-block;
+       
+    }
+    
+}
+    
+
+}
+.e{
+   color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra */
+
+
+    </style>
+</head>
+
+
+<section class="hearder">
+    <nav>
+    <a href="index.html"><img src="images.1.2.jfif"></a>
+    <div class="sad" id="navlinks">
+
+        <i class="fa fa-times" onclick="hideMenu()" ></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="http://127.0.0.1:5500/About.html"  >About</a</li>
+            <li><a href="http://127.0.0.1:5500/Notic.html " >Notice</a></li>
+            <li><a href="">CURICULAM</a></li>
+            <li><a href="">Result</a></li>
+            <li><a href="http://127.0.0.1:5500/blog.html">BLOG</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+<body>
+    
+    
+    <!-- <h4>About the school</h4> -->
+    
+    <div class="q">
+        <img  class="pic"  src="http://www.global1webservice.com/file/2016/04/04/icons_about.png"  ></p>
+        <p c>Bangladesh Rice Research Institute High Schoo is a NON-GOVERNMENT School . This institute's EIIN number is 108959. </p>
+        
+        
+        
+        <p > " This institute is located in GAZIPUR, DHAKA division. It's geographical area is PLAIN LAND. It offers classes upto Secondary level.It was established on 1993. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam est, ad similique blanditiis ut illum porro laudantium. Assumenda, praesentium dignissimos quam quibusdam harum quod dolor eaque est. Nostrum, voluptas iure? Porro ducimus ipsam quis, laborum possimus cumque necessitatibus numquam explicabo doloribus aut quod eveniet cum vel excepturi. Tenetur quae totam laboriosam ullam esse quo architecto non eveniet vero neque consequatur facere sapiente amet molestiae tempora harum obcaecati optio error beatae quibusdam reprehenderit nostrum quasi, voluptate minus? Possimus dicta tempora quod suscipit beatae, minus amet. Vero magnam dolore unde molestiae voluptate esse minus voluptatibus quas quos pariatur deserunt, incidunt doloremque velit numquam voluptatem facilis architecto illum rem. Ex unde voluptatibus provident ipsam eos, at blanditiis expedita vero laborum a eum non quod architecto consectetur doloremque cumque possimus debitis eaque voluptate! Quaerat magni deleniti omnis. Enim, minima perspiciatis odit corrupti reprehenderit, nisi doloremque tenetur eligendi harum labore voluptatibus illo, dignissimos nihil atque porro eum aut cupiditate deleniti! Quidem doloribus qui, magnam est sapiente vitae tenetur dolores, expedita odit sit temporibus blanditiis obcaecati, nobis consequuntur ex. Hic distinctio sint recusandae. Non hic architecto, recusandae, similique porro eveniet veritatis, aut fugit dicta nihil fugiat! Illo facere fugiat sapiente quo placeat nemo labore maxime.
+            "</p>
+
+    </div>
+    <footer class="e"><b>&copy; Copyright  is taken by the authority</b></footer>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    </script>
+   
+    
+    
+</body>
+</html>
+
+
+

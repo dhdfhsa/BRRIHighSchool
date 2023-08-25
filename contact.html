@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<style>
+   
+    .p{
+        text-align: center;
+        font-size: 40px;
+    }
+    .hearder{
+        background-image: url(http://pathshalaems.com//StudentImages/uploadedimages/ImageGallery/2018_5_15_0_50_57_985_.jpg);
+        min-height: 50vh;
+    }
+    footer{
+        text-align: center;
+    }
+    .location{
+        background-color: aliceblue;
+    }
+    @media (max-width:500px) {
+    .contactus .contact-col div {
+        font-size: 10px;
+        width: 100%;
+        margin: 5%;
+        font-size: 10px;
+        
+    }
+    .er{
+        width: 40%;
+        font-size: 10px;
+        margin: none;
+    }
+    /* .uiou .liiu{
+        visibility: hidden;
+        visibility: collapse;
+        margin: none;
+    } */
+    
+}
+
+</style>
+</head>
+<body>
+    <section class="hearder">
+        <nav>
+        <a href="index.html"><img src="images.1.2.jfif"></a>
+        <div class="sad" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/A%20school%20website.html">HOME</a></li>
+                <li><a href="http://127.0.0.1:5500/About%202.html">ABOUT</a</li>
+                <li><a href="http://127.0.0.1:5500/Notic%202.html">NOTICE</a></li>
+                <li><a href="http://127.0.0.1:5500/Curriculum.html">CURRICULUM</a></li>
+                <li><a href="http://127.0.0.1:5500/blog.html">BLOG</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1 class="p"><b>Contact Us</b></h1>
+       
+    </section>
+
+
+    <section class="location">
+        <h4>OUR LOCATION ON GOOGLE MAP</h4>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5730.892339860504!2d90.40358847995665!3d23.99013881072229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755db0340800e11%3A0x369897e1abd355fc!2z4Kas4KeN4Kaw4Ka_IOCmquCnjeCmsOCml-CmpOCmvyDgpqrgp43gprDgpr7gpqXgpq7gpr_gppUg4Kas4Ka_4Kam4KeN4Kav4Ka-4Kay4Kav4Ka8!5e0!3m2!1sbn!2sbd!4v1692195729735!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contactus">
+        <div class="row">
+            <div class="contact-col">
+                <h4>Contact Source</h4>
+                <div class="er">
+       
+                <div>
+             
+                   <span class="ds">
+                    
+                        <h5 class="uiou">Bangladesh Rice Research Institute </h5>
+                    <p class="liiu">Joydebpur,Gazipur</p>
+                    
+                   </span>
+
+                </div>
+                <div>
+               
+                    <span class="ds">
+                       
+                            <h5 class="uioo">01717734248 </h5>
+                            <p class="liio">Call us to know more </P>
+                           
+                        
+                    
+                    </span>
+ 
+                 </div>
+                 <div>
+                  
+                    <span class="ds">
+                        
+                            <h5 class="uio">Email-safwanwr111@gmail.com</h5>
+                            <p class="lii">Email us your querry</p>
+                       
+                    
+                    </span>
+ 
+                 </div>
+ 
+             
+             
+
+            </div>
+        </div>
+
+            <div class="contact-col">
+
+                <form action="formhandalar.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email adress" required>
+                    <input type="text" name="subject" placeholder="Enter your subject " required>
+                    <textarea  rows="8" name="massage" placeholder="massage" required></textarea>
+                    <button type="submit" class="y">Send Massage</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+   
+    
+
+   
+    <footer>&copy;Copyright is taken by the authority</footer>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    </script>
+    
+</body>
+</html>

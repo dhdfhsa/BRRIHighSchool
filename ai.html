@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #FFC300, #FF5733);
+    animation: gradientAnimation 5s ease infinite alternate;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(45deg, #FFC300, #FF5733);
+    }
+    100% {
+      background: linear-gradient(45deg, #FF5733, #FFC300);
+    }
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+</style>
+<title>Animated Background Color</title>
+</head>
+<body>
+  <h1>Welcome to My Animated Website</h1>
+</body>
+</html>
