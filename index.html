@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh Rice Research Institute High School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<link rel="icon" href="images.1.2.jfif">
+<style>
+    a{
+        color: black;
+    }
+    body {
+    margin: 0;
+   background-size: 300% 300%;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#d2001a, #7462ff,#f48e21,#23d5ab);
+    animation: gradientAnimation 5s ease infinite alternate;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(45deg,#d2001a, #7462ff,#f48e21,#23d5ab );
+      /* background-position: 0 50%; */
+    }
+    50%{
+        /* background-position: 0 50%; */
+        background: linear-gradient(45deg,#d2001a, #7462ff,#f48e21,#23d5ab );
+    }
+    100% {
+      background: linear-gradient(45deg, #d2001a, #7462ff,#f48e21,#23d5ab);
+      /* background-position: 0 50%; */
+    }
+  }
+
+  .ty{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    /* margin-top: 20px; */
+/* background-color: azure; */
+background-image: url(data:image/jpeg;base64,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);
+background-size: contain;
+width: 100%;
+margin-top: 1%;
+
+}
+@media (max-width:1040px) {
+    .ty{
+        width: 100%;
+        height: 450px;
+        margin-top:15% ;
+        margin-bottom: 10%;
+    }
+    .swiper{
+        width: 100%;
+        height: 350px;
+    }
+  
+}
+
+@media (max-width:550px) {
+    
+    .ty{
+        margin-top:  10%; ;
+        margin-bottom: 30% ;
+
+    }
+    .swiper img{
+        /* width: 100%; */
+        height: 50vh;
+    }
+    .swiper{
+        height: 50vh;
+    }
+}
+@media (max-width:300px) {
+    
+    .ty{
+        margin-top:  50%; ;
+        margin-bottom: 30% ;
+    }
+    .swiper img{
+        /* width: 100%; */
+        height: 50vh;
+    }
+    .swiper{
+        height: 50vh;
+    }
+}
+@media (max-width:850px) {
+    .topblog{
+        font-size: 15px;
+ 
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+    <section class="sfd">
+   
+        <div class="container">
+         
+        </div>
+       
+     
+         <div class="sad" id="navlinks">
+            
+             <i class="fa fa-times" onclick="hideMenu()" ></i>
+             <ul>
+                 <!-- <li class="dof"><a href="">Sing In</a></li>
+                 <li class="difg"><a href="">Sing Up</a></li> -->
+                 <li><a href="http://127.0.0.1:5500/A%20school%20website.html">HOME</a></li> 
+                  <li><a href="http://127.0.0.1:5500/About%202.html">ABOUT</a</li> 
+                 <li><a href="http://127.0.0.1:5500/Notic%202.html">NOTICE</a></li>
+                 <li><a href="http://127.0.0.1:5500/Curriculum.html">CURRICULUM</a></li>
+                 <li><a href="http://127.0.0.1:5500/blog.html">BLOG</a></li>
+                  <li><a href="http://127.0.0.1:5500/contact.html">CONTACT US</a></li>
+                  
+             </ul>
+         </div> 
+         <i class="fa fa-bars" onclick="showMenu()" ></i>
+         </nav>
+     
+         <div class="colored-side"></div>  
+        
+     </section>
+
+
+    <section class="hearder">
+        <nav>
+ 
+                
+                 <img class="gfds"  src="https://tse1.mm.bing.net/th?id=OIP.94So1fgDmZTjGxYoUIZbaAHaBD&pid=Api&P=0&h=220" alt="">
+
+        </nav>
+       
+    </section>
+    <div class="base">
+    <div class="text-box">
+
+            <section class="asw">
+            
+
+                <div class="ty">
+             
+                    <div class="swiper">
+                       
+                        <div class="swiper-wrapper">
+                         
+                          <div class="swiper-slide"><img src="2018_5_15_1_5_48_415_.jpg" ></div>
+                            <div class="swiper-slide"><img src="2018_5_15_0_50_57_985_.jpg" ></div>
+                          <div class="swiper-slide"><img src="images.1.1.jfif" ></div>
+                          <div class="swiper-slide"><img src="2018_5_15_1_5_48_415_.jpg" ></div><br>
+                        
+                          
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <br>
+                      
+                     
+                              
+                    
+                        </div>
+                        <br>
+
+
+                      
+                      
+
+                
+                    </secction>
+                    <div>
+             <!-- <a href="https://web.facebook.com/groups/452046285233155" target="_blank" class="i">VIEW OUR FB TO KNOW MORE</a> -->
+        </div>
+       
+
+    </section>
+
+
+
+
+    <section>
+        <!-- <h1>Notic Board</h1> -->
+        
+        <section class="asdf">
+ <a href="https://web.facebook.com/groups/452046285233155" target="_blank" class="i">VIEW OUR FB TO KNOW MORE</a> 
+           
+
+            <table  class="table">
+                <hr class="custom-line">
+                <caption>Recent Notice</caption>
+                <hr class="custom-line">
+                <tr>
+                    <th scope="col" >NO.</th>
+                    <th scope="col">Date</th>
+                    <th scope="col" >Topic</th>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td ><a href="http://127.0.0.1:5500/notic2.3.html" target="_blank">15 <sup>th</sup>  August</a></td>
+                    <td><a href="http://127.0.0.1:5500/notic2.3.html" target="_blank">  Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem eius quo in excepturi perferendis</a> </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td ><a href="http://127.0.0.1:5500/notic2.3.html">15 <sup>th</sup>  August</a></td>
+                    <td><a href="http://127.0.0.1:5500/notic2.3.html">  Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem eius quo in excepturi perferendis</a> </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td ><a href="http://127.0.0.1:5500/notic2.3.html">15 <sup>th</sup>  August</a></td>
+                    <td><a href="http://127.0.0.1:5500/notic2.3.html">  Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem eius quo in excepturi perferendis</a> </td>
+                </tr>
+                <tr class="uh">
+                    <th scope="row">4</th>
+                    <td ><a href="http://127.0.0.1:5500/notic2.3.html">15 <sup>th</sup>  August</a></td>
+                    <td><a href="http://127.0.0.1:5500/notic2.3.html">  Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem eius quo in excepturi perferendis</a> </td>
+                </tr>
+                <tr class="uj">
+                    <th scope="row">5</th>
+                    <td ><a href="http://127.0.0.1:5500/notic2.3.html">15 <sup>th</sup>  August</a></td>
+                    <td><a href="http://127.0.0.1:5500/notic2.3.html">  Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem eius quo in excepturi perferendis</a> </td>
+                </tr>
+                <tr>
+              
+                
+              
+              
+                
+                
+                
+                
+            </table>
+            <hr class="custom-line">
+            <!-- <footer class="e">&copy; Copyright  is taken by the authority</footer> -->
+        </section>
+
+
+
+    </section>
+
+   
+    
+    
+    
+    
+    
+    
+    <!-- <section>
+        <div class="asdfg">
+            <h1>THE QUOTE OF OUR HEAD MASTER ABOUT THE WEBSITE</h1>
+            
+            <p class="qas">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione quo, dolorum voluptatibus ab natus recusandae quas omnis eum quam exercitationem!<img class="mbs"  src="http://pathshalaems.com//StudentImages/uploadedimages/InatituteHeadImage/2022_2_13_19_43_17_519.jpg" ></p>
+    
+<p class="qas">ita corrupti maiores. Atque, expedita in deserunt quae, laboriosam porro dolore, impedit incidunt rerum quis iste!</p>
+        </div>
+
+      
+    </section> -->
+
+    <section class="topblog">
+        <div>
+            <h1>TOP BLOG</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facilis iste ratione, illum voluptate ex blanditiis, doloremque recusandae assumenda, dolorem accusantium nihil repudiandae. Incidunt itaque totam facilis alias, expedita suscipit consequuntur quidem. Aut suscipit, cum illo laudantium omnis a dolor ipsam eveniet soluta saepe numquam esse repudiandae quos architecto molestias cumque ab eos voluptate aliquid, velit similique. Ullam suscipit, eaque officia mollitia, officiis nobis cumque esse quae distinctio perferendis, consequuntur maxime eos! Enim labore quisquam, cumque vel ea quis ut commodi illum quo accusamus autem. Omnis est illo, quasi tempore facilis quibusdam et consequatur? Consequuntur omnis nemo repellat tempore cum error placeat assumenda eaque reprehenderit maxime possimus, officia enim ipsum facere molestiae recusandae pariatur in consectetur natus magni iusto. Magni esse, repellat, sed beatae ea illum consequuntur saepe neque temporibus provident consequatur atque quos sunt deleniti nostrum commodi eos quia quibusdam laboriosam explicabo! Id praesentium quasi nobis voluptates cumque nisi dolore minus quibusdam non, alias minima. Repudiandae, autem saepe enim perspiciatis dolore asperiores unde nesciunt. Dolore, repudiandae quod eligendi, quis adipisci magni distinctio nostrum quaerat ullam alias corrupti aperiam voluptatum quibusdam praesentium necessitatibus voluptates atque? Obcaecati ut autem maiores velit provident esse sapiente dicta vel repellat. Eos repellat eius assumenda?<a href="http://127.0.0.1:5500/blog.html">see more</a></p>
+        </div>
+    </section>
+
+
+    <section>
+        <hr class="custom-line">
+        <section class="contactus">
+            <div class="row">
+                <div class="contact-col">
+                    <h4>Contact Us</h4>
+                    <div class="er">
+                    <div >
+                    
+                       <span class="ds">
+                        
+                            <h5 class="uiou">Bangladesh Rice Research Institute </h5>
+                        <p class="liiu">Joydebpur,Gazipur</p>
+                        
+                       </span>
+    
+                    </div>
+                    <div>
+                     
+                        <span class="ds">
+                           
+                                <h5 class="uioo">01717734248 </h5>
+                                <p class="liii">Call us to know more</p>
+    
+                            
+                            
+                               
+                            
+                        
+                        </span>
+     
+                     </div>
+                     <div>
+                
+                        <span class="ds">
+                            
+                                <h5 class="uio">Email-safwanwr111@gmail.com</h5>
+                                <p class="lii">Email us your querry</p>
+                           
+                        
+                        </span>
+     
+                     </div>
+     
+                 
+                    
+
+    
+                </div>
+            </div>
+             
+               
+    </section>
+    
+
+    <footer>&copy;Copyright is taken by the authority</footer>
+ 
+</div>
+    
+
+
+   
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script>
+       const swiper = new Swiper('.swiper', {
+ autoplay:{
+   delay:3000,
+   disableOneInteraction:false,
+ },
+ loop: true,
+
+ 
+
+
+
+ navigation: {
+   nextEl: '.swiper-button-next',
+   prevEl: '.swiper-button-prev',
+ },
+
+
+} );
+   </script>
+
+
+
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+
+
+
+</html>
